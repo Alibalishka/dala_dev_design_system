@@ -1,0 +1,29 @@
+name: dala_dev_design_system
+description: A new Flutter package project.
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ">=3.1.4 <4.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  widgetbook: ^3.1.0
+  widgetbook_annotation: ^3.0.0
+  figma2flutter: ^0.3.0-alpha
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  widgetbook_generator: ^3.0.0
+  build_runner: ^2.4.6
+  theme_tailor: ^2.0.0
+  flutter_gen_runner: ^5.3.1
+
+flutter:
+  assets:
+    - assets/svg/
+    - assets/icons/
