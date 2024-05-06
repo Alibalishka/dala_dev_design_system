@@ -26,7 +26,13 @@ figma2flutter --input ./assets/token-sources/colors.json --output ./lib/src/toke
 figma2flutter --input ./assets/token-sources/dimensions.json --output ./lib/src/tokens/dimensions/
 ```
 
-6. Run the command in the root of your project to generate components
+7. Run the command in the root of your project to generate typography components
+
+```sh
+figma2flutter --input ./assets/token-sources/typography.json --output ./lib/src/tokens/typography/
+```
+
+8. Run the command in the root of your project to generate components components
 
 ```sh
 
