@@ -28,9 +28,23 @@ class ExampleView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: Column(
+        // crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          DdText.primary(text: 'ewhfdbw')
-       
+          DdText.primary(text: 'ewhfdbw'),
+          DdButton.primary(
+            label: 'afasasf',
+            size: DdButtonSize.l,
+            onPressed: () {},
+          ),
+          DdButton.secondary(
+            label: 'afasasf',
+            size: DdButtonSize.m,
+            onPressed: () {},
+          ),
+          DdButton.tertiary(
+            label: 'afasasf',
+            onPressed: () {},
+          ),
         ],
       ),
     );

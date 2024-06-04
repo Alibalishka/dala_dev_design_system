@@ -15,15 +15,6 @@ abstract class ITokens {
 }
 
 abstract class ColorTokens {
-  Color get primitivePanaBrand100;
-  Color get primitivePanaBrand200;
-  Color get primitivePanaBrand300;
-  Color get primitivePanaBrand400;
-  Color get primitivePanaBrand500;
-  Color get primitivePanaBrand600;
-  Color get primitivePanaBrand700;
-  Color get primitivePanaBrand800;
-  Color get primitivePanaBrand900;
   Color get primitiveNeutralcold0;
   Color get primitiveNeutralcold10;
   Color get primitiveNeutralcold25;
@@ -93,24 +84,6 @@ abstract class ColorTokens {
   Color get primitiveYellow700;
   Color get primitiveYellow800;
   Color get primitiveYellow900;
-  Color get primitiveMinminBrand100;
-  Color get primitiveMinminBrand200;
-  Color get primitiveMinminBrand300;
-  Color get primitiveMinminBrand400;
-  Color get primitiveMinminBrand500;
-  Color get primitiveMinminBrand600;
-  Color get primitiveMinminBrand700;
-  Color get primitiveMinminBrand800;
-  Color get primitiveMinminBrand900;
-  Color get primitiveSandyqrestBrand100;
-  Color get primitiveSandyqrestBrand200;
-  Color get primitiveSandyqrestBrand300;
-  Color get primitiveSandyqrestBrand400;
-  Color get primitiveSandyqrestBrand500;
-  Color get primitiveSandyqrestBrand600;
-  Color get primitiveSandyqrestBrand700;
-  Color get primitiveSandyqrestBrand800;
-  Color get primitiveSandyqrestBrand900;
   Color get primitiveLightblue100;
   Color get primitiveLightblue200;
   Color get primitiveLightblue300;
@@ -120,15 +93,6 @@ abstract class ColorTokens {
   Color get primitiveLightblue700;
   Color get primitiveLightblue800;
   Color get primitiveLightblue900;
-  Color get primitiveSandyqgroupBrand100;
-  Color get primitiveSandyqgroupBrand200;
-  Color get primitiveSandyqgroupBrand300;
-  Color get primitiveSandyqgroupBrand400;
-  Color get primitiveSandyqgroupBrand500;
-  Color get primitiveSandyqgroupBrand600;
-  Color get primitiveSandyqgroupBrand700;
-  Color get primitiveSandyqgroupBrand800;
-  Color get primitiveSandyqgroupBrand900;
   Color get primitiveNeutralwarm0;
   Color get primitiveNeutralwarm10;
   Color get primitiveNeutralwarm25;
@@ -159,15 +123,6 @@ abstract class ColorTokens {
   Color get primitiveNeutral800;
   Color get primitiveNeutral900;
   Color get primitiveNeutral1000;
-  Color get primitiveNaprocatBrand100;
-  Color get primitiveNaprocatBrand200;
-  Color get primitiveNaprocatBrand300;
-  Color get primitiveNaprocatBrand400;
-  Color get primitiveNaprocatBrand500;
-  Color get primitiveNaprocatBrand600;
-  Color get primitiveNaprocatBrand700;
-  Color get primitiveNaprocatBrand800;
-  Color get primitiveNaprocatBrand900;
   Color get primitiveCrimson100;
   Color get primitiveCrimson200;
   Color get primitiveCrimson300;
@@ -186,16 +141,16 @@ abstract class ColorTokens {
   Color get primitiveDarkgreen700;
   Color get primitiveDarkgreen800;
   Color get primitiveDarkgreen900;
-  Color get primitiveTazaBrand50;
-  Color get primitiveTazaBrand100;
-  Color get primitiveTazaBrand200;
-  Color get primitiveTazaBrand300;
-  Color get primitiveTazaBrand400;
-  Color get primitiveTazaBrand500;
-  Color get primitiveTazaBrand600;
-  Color get primitiveTazaBrand700;
-  Color get primitiveTazaBrand800;
-  Color get primitiveTazaBrand900;
+  Color get primitiveBrand50;
+  Color get primitiveBrand100;
+  Color get primitiveBrand200;
+  Color get primitiveBrand300;
+  Color get primitiveBrand400;
+  Color get primitiveBrand500;
+  Color get primitiveBrand600;
+  Color get primitiveBrand700;
+  Color get primitiveBrand800;
+  Color get primitiveBrand900;
   Color get semanticErrorDefault;
   Color get semanticErrorHover;
   Color get semanticSuccessDefault;
@@ -263,7 +218,6 @@ abstract class ColorTokens {
 }
 
 abstract class MaterialColorTokens {
-  MaterialColor get primitivePanaBrand;
   MaterialColor get primitiveNeutralcold;
   MaterialColor get primitiveGreen;
   MaterialColor get primitiveOrange;
@@ -271,16 +225,12 @@ abstract class MaterialColorTokens {
   MaterialColor get primitiveBlue;
   MaterialColor get primitivePurple;
   MaterialColor get primitiveYellow;
-  MaterialColor get primitiveMinminBrand;
-  MaterialColor get primitiveSandyqrestBrand;
   MaterialColor get primitiveLightblue;
-  MaterialColor get primitiveSandyqgroupBrand;
   MaterialColor get primitiveNeutralwarm;
   MaterialColor get primitiveNeutral;
-  MaterialColor get primitiveNaprocatBrand;
   MaterialColor get primitiveCrimson;
   MaterialColor get primitiveDarkgreen;
-  MaterialColor get primitiveTazaBrand;
+  MaterialColor get primitiveBrand;
 }
 
 class DefaultTokens extends ITokens {
@@ -291,24 +241,6 @@ class DefaultTokens extends ITokens {
 }
 
 class DefaultColorTokens extends ColorTokens {
-  @override
-  Color get primitivePanaBrand100 => const Color(0xFFFFE4D5);
-  @override
-  Color get primitivePanaBrand200 => const Color(0xFFFFD1B9);
-  @override
-  Color get primitivePanaBrand300 => const Color(0xFFFFB79F);
-  @override
-  Color get primitivePanaBrand400 => const Color(0xFFFFAC94);
-  @override
-  Color get primitivePanaBrand500 => const Color(0xFFE56553);
-  @override
-  Color get primitivePanaBrand600 => const Color(0xFFC14638);
-  @override
-  Color get primitivePanaBrand700 => const Color(0xFF9D261D);
-  @override
-  Color get primitivePanaBrand800 => const Color(0xFF7A0003);
-  @override
-  Color get primitivePanaBrand900 => const Color(0xFF590000);
   @override
   Color get primitiveNeutralcold0 => const Color(0xFFFFFFFF);
   @override
@@ -448,42 +380,6 @@ class DefaultColorTokens extends ColorTokens {
   @override
   Color get primitiveYellow900 => const Color(0xFF3F2600);
   @override
-  Color get primitiveMinminBrand100 => const Color(0xFFC9F7EC);
-  @override
-  Color get primitiveMinminBrand200 => const Color(0xFFBAEDE1);
-  @override
-  Color get primitiveMinminBrand300 => const Color(0xFFA1DDCF);
-  @override
-  Color get primitiveMinminBrand400 => const Color(0xFF6CCCB4);
-  @override
-  Color get primitiveMinminBrand500 => const Color(0xFF24BA96);
-  @override
-  Color get primitiveMinminBrand600 => const Color(0xFF1A9F8C);
-  @override
-  Color get primitiveMinminBrand700 => const Color(0xFF128580);
-  @override
-  Color get primitiveMinminBrand800 => const Color(0xFF0C676C);
-  @override
-  Color get primitiveMinminBrand900 => const Color(0xFFFFFFFF);
-  @override
-  Color get primitiveSandyqrestBrand100 => const Color(0xFFE8CCC2);
-  @override
-  Color get primitiveSandyqrestBrand200 => const Color(0xFFDDB4A5);
-  @override
-  Color get primitiveSandyqrestBrand300 => const Color(0xFFCD927C);
-  @override
-  Color get primitiveSandyqrestBrand400 => const Color(0xFFC37D62);
-  @override
-  Color get primitiveSandyqrestBrand500 => const Color(0xFFB45C3B);
-  @override
-  Color get primitiveSandyqrestBrand600 => const Color(0xFFA45436);
-  @override
-  Color get primitiveSandyqrestBrand700 => const Color(0xFF80412A);
-  @override
-  Color get primitiveSandyqrestBrand800 => const Color(0xFF633320);
-  @override
-  Color get primitiveSandyqrestBrand900 => const Color(0xFF4C2719);
-  @override
   Color get primitiveLightblue100 => const Color(0xFFE8F4FF);
   @override
   Color get primitiveLightblue200 => const Color(0xFFC4E2FF);
@@ -501,24 +397,6 @@ class DefaultColorTokens extends ColorTokens {
   Color get primitiveLightblue800 => const Color(0xFF16497E);
   @override
   Color get primitiveLightblue900 => const Color(0xFF002D57);
-  @override
-  Color get primitiveSandyqgroupBrand100 => const Color(0xFFE7DCD2);
-  @override
-  Color get primitiveSandyqgroupBrand200 => const Color(0xFFDCCBBD);
-  @override
-  Color get primitiveSandyqgroupBrand300 => const Color(0xFFCBB49F);
-  @override
-  Color get primitiveSandyqgroupBrand400 => const Color(0xFFC1A58C);
-  @override
-  Color get primitiveSandyqgroupBrand500 => const Color(0xFFB28F6F);
-  @override
-  Color get primitiveSandyqgroupBrand600 => const Color(0xFFA28265);
-  @override
-  Color get primitiveSandyqgroupBrand700 => const Color(0xFF7E664F);
-  @override
-  Color get primitiveSandyqgroupBrand800 => const Color(0xFF624F3D);
-  @override
-  Color get primitiveSandyqgroupBrand900 => const Color(0xFF4B3C2F);
   @override
   Color get primitiveNeutralwarm0 => const Color(0xFFFFFFFF);
   @override
@@ -580,24 +458,6 @@ class DefaultColorTokens extends ColorTokens {
   @override
   Color get primitiveNeutral1000 => const Color(0xFF000000);
   @override
-  Color get primitiveNaprocatBrand100 => const Color(0xFFE8F4FF);
-  @override
-  Color get primitiveNaprocatBrand200 => const Color(0xFFC4E2FF);
-  @override
-  Color get primitiveNaprocatBrand300 => const Color(0xFFA0D0FF);
-  @override
-  Color get primitiveNaprocatBrand400 => const Color(0xFF7ABDFF);
-  @override
-  Color get primitiveNaprocatBrand500 => const Color(0xFF4DAAFF);
-  @override
-  Color get primitiveNaprocatBrand600 => const Color(0xFF3C88D2);
-  @override
-  Color get primitiveNaprocatBrand700 => const Color(0xFF2A68A7);
-  @override
-  Color get primitiveNaprocatBrand800 => const Color(0xFF16497E);
-  @override
-  Color get primitiveNaprocatBrand900 => const Color(0xFF002D57);
-  @override
   Color get primitiveCrimson100 => const Color(0xFFFFD7DA);
   @override
   Color get primitiveCrimson200 => const Color(0xFFF6C5C9);
@@ -634,25 +494,25 @@ class DefaultColorTokens extends ColorTokens {
   @override
   Color get primitiveDarkgreen900 => const Color(0xFF01501E);
   @override
-  Color get primitiveTazaBrand50 => const Color(0xFFE6F6FF);
+  Color get primitiveBrand50 => const Color(0xFFE6F6FF);
   @override
-  Color get primitiveTazaBrand100 => const Color(0xFFB0E2FF);
+  Color get primitiveBrand100 => const Color(0xFFB0E2FF);
   @override
-  Color get primitiveTazaBrand200 => const Color(0xFF8AD3FF);
+  Color get primitiveBrand200 => const Color(0xFF8AD3FF);
   @override
-  Color get primitiveTazaBrand300 => const Color(0xFF54BFFF);
+  Color get primitiveBrand300 => const Color(0xFF54BFFF);
   @override
-  Color get primitiveTazaBrand400 => const Color(0xFF33B3FF);
+  Color get primitiveBrand400 => const Color(0xFF33B3FF);
   @override
-  Color get primitiveTazaBrand500 => const Color(0xFF00A0FF);
+  Color get primitiveBrand500 => const Color(0xFF00A0FF);
   @override
-  Color get primitiveTazaBrand600 => const Color(0xFF0092E8);
+  Color get primitiveBrand600 => const Color(0xFF0092E8);
   @override
-  Color get primitiveTazaBrand700 => const Color(0xFF0072B5);
+  Color get primitiveBrand700 => const Color(0xFF0072B5);
   @override
-  Color get primitiveTazaBrand800 => const Color(0xFF00588C);
+  Color get primitiveBrand800 => const Color(0xFF00588C);
   @override
-  Color get primitiveTazaBrand900 => const Color(0xFF00436B);
+  Color get primitiveBrand900 => const Color(0xFF00436B);
   @override
   Color get semanticErrorDefault => const Color(0xFFE64A34);
   @override
@@ -786,19 +646,6 @@ class DefaultColorTokens extends ColorTokens {
 
 class DefaultMaterialColorTokens extends MaterialColorTokens {
   @override
-MaterialColor get primitivePanaBrand => const MaterialColor(0xFFE56553, {
-  100: Color(0xFFFFE4D5),
-  200: Color(0xFFFFD1B9),
-  300: Color(0xFFFFB79F),
-  400: Color(0xFFFFAC94),
-  500: Color(0xFFE56553),
-  600: Color(0xFFC14638),
-  700: Color(0xFF9D261D),
-  800: Color(0xFF7A0003),
-  900: Color(0xFF590000),
-});
-
-  @override
 MaterialColor get primitiveNeutralcold => const MaterialColor(0xFF585B75, {
   50: Color(0xFFEEEFF8),
   100: Color(0xFFCBCCDD),
@@ -891,32 +738,6 @@ MaterialColor get primitiveYellow => const MaterialColor(0xFFF2C94C, {
 });
 
   @override
-MaterialColor get primitiveMinminBrand => const MaterialColor(0xFF24BA96, {
-  100: Color(0xFFC9F7EC),
-  200: Color(0xFFBAEDE1),
-  300: Color(0xFFA1DDCF),
-  400: Color(0xFF6CCCB4),
-  500: Color(0xFF24BA96),
-  600: Color(0xFF1A9F8C),
-  700: Color(0xFF128580),
-  800: Color(0xFF0C676C),
-  900: Color(0xFFFFFFFF),
-});
-
-  @override
-MaterialColor get primitiveSandyqrestBrand => const MaterialColor(0xFFB45C3B, {
-  100: Color(0xFFE8CCC2),
-  200: Color(0xFFDDB4A5),
-  300: Color(0xFFCD927C),
-  400: Color(0xFFC37D62),
-  500: Color(0xFFB45C3B),
-  600: Color(0xFFA45436),
-  700: Color(0xFF80412A),
-  800: Color(0xFF633320),
-  900: Color(0xFF4C2719),
-});
-
-  @override
 MaterialColor get primitiveLightblue => const MaterialColor(0xFF47ADFF, {
   100: Color(0xFFE8F4FF),
   200: Color(0xFFC4E2FF),
@@ -927,19 +748,6 @@ MaterialColor get primitiveLightblue => const MaterialColor(0xFF47ADFF, {
   700: Color(0xFF2A68A7),
   800: Color(0xFF16497E),
   900: Color(0xFF002D57),
-});
-
-  @override
-MaterialColor get primitiveSandyqgroupBrand => const MaterialColor(0xFFB28F6F, {
-  100: Color(0xFFE7DCD2),
-  200: Color(0xFFDCCBBD),
-  300: Color(0xFFCBB49F),
-  400: Color(0xFFC1A58C),
-  500: Color(0xFFB28F6F),
-  600: Color(0xFFA28265),
-  700: Color(0xFF7E664F),
-  800: Color(0xFF624F3D),
-  900: Color(0xFF4B3C2F),
 });
 
   @override
@@ -971,19 +779,6 @@ MaterialColor get primitiveNeutral => const MaterialColor(0xFF585B75, {
 });
 
   @override
-MaterialColor get primitiveNaprocatBrand => const MaterialColor(0xFF4DAAFF, {
-  100: Color(0xFFE8F4FF),
-  200: Color(0xFFC4E2FF),
-  300: Color(0xFFA0D0FF),
-  400: Color(0xFF7ABDFF),
-  500: Color(0xFF4DAAFF),
-  600: Color(0xFF3C88D2),
-  700: Color(0xFF2A68A7),
-  800: Color(0xFF16497E),
-  900: Color(0xFF002D57),
-});
-
-  @override
 MaterialColor get primitiveCrimson => const MaterialColor(0xFFE14453, {
   100: Color(0xFFFFD7DA),
   200: Color(0xFFF6C5C9),
@@ -1010,7 +805,7 @@ MaterialColor get primitiveDarkgreen => const MaterialColor(0xFF019F3C, {
 });
 
   @override
-MaterialColor get primitiveTazaBrand => const MaterialColor(0xFF00A0FF, {
+MaterialColor get primitiveBrand => const MaterialColor(0xFF00A0FF, {
   50: Color(0xFFE6F6FF),
   100: Color(0xFFB0E2FF),
   200: Color(0xFF8AD3FF),

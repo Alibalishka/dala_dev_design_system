@@ -1,61 +1,5 @@
 {
   "primitive": {
-    "pana-brand": {
-      "100": {
-        "value": "#ffe4d5",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "200": {
-        "value": "#ffd1b9",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "300": {
-        "value": "#ffb79f",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "400": {
-        "value": "#ffac94",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "500": {
-        "value": "#e56553",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "600": {
-        "value": "#c14638",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "700": {
-        "value": "#9d261d",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "800": {
-        "value": "#7a0003",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "900": {
-        "value": "#590000",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      }
-    },
     "neutralcold": {
       "0": {
         "value": "#ffffff",
@@ -484,118 +428,6 @@
         "description": ""
       }
     },
-    "minmin-brand": {
-      "100": {
-        "value": "#c9f7ec",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "200": {
-        "value": "#baede1",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "300": {
-        "value": "#a1ddcf",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "400": {
-        "value": "#6cccb4",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "500": {
-        "value": "#24ba96",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "600": {
-        "value": "#1a9f8c",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "700": {
-        "value": "#128580",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "800": {
-        "value": "#0c676c",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "900": {
-        "value": "#ffffff",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      }
-    },
-    "sandyqrest-brand": {
-      "100": {
-        "value": "#e8ccc2",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "200": {
-        "value": "#ddb4a5",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "300": {
-        "value": "#cd927c",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "400": {
-        "value": "#c37d62",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "500": {
-        "value": "#b45c3b",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "600": {
-        "value": "#a45436",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "700": {
-        "value": "#80412a",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "800": {
-        "value": "#633320",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "900": {
-        "value": "#4c2719",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      }
-    },
     "lightblue": {
       "100": {
         "value": "#e8f4ff",
@@ -647,62 +479,6 @@
       },
       "900": {
         "value": "#002d57",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      }
-    },
-    "sandyqgroup-brand": {
-      "100": {
-        "value": "#e7dcd2",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "200": {
-        "value": "#dccbbd",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "300": {
-        "value": "#cbb49f",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "400": {
-        "value": "#c1a58c",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "500": {
-        "value": "#b28f6f",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "600": {
-        "value": "#a28265",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "700": {
-        "value": "#7e664f",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "800": {
-        "value": "#624f3d",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "900": {
-        "value": "#4b3c2f",
         "type": "color",
         "parent": "1. Colors/xs",
         "description": ""
@@ -892,62 +668,6 @@
         "description": ""
       }
     },
-    "naprocat-brand": {
-      "100": {
-        "value": "#e8f4ff",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "200": {
-        "value": "#c4e2ff",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "300": {
-        "value": "#a0d0ff",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "400": {
-        "value": "#7abdff",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "500": {
-        "value": "#4daaff",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "600": {
-        "value": "#3c88d2",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "700": {
-        "value": "#2a68a7",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "800": {
-        "value": "#16497e",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      },
-      "900": {
-        "value": "#002d57",
-        "type": "color",
-        "parent": "1. Colors/xs",
-        "description": ""
-      }
-    },
     "crimson": {
       "100": {
         "value": "#ffd7da",
@@ -1060,7 +780,7 @@
         "description": ""
       }
     },
-    "taza-brand": {
+    "brand": {
       "50": {
         "value": "#e6f6ff",
         "type": "color",
@@ -1228,25 +948,25 @@
     },
     "accent": {
       "default": {
-        "value": "{primitive.taza-brand.500}",
+        "value": "{primitive.brand.500}",
         "type": "color",
         "parent": "1. Colors/xs",
         "description": ""
       },
       "hover": {
-        "value": "{primitive.taza-brand.600}",
+        "value": "{primitive.brand.600}",
         "type": "color",
         "parent": "1. Colors/xs",
         "description": ""
       },
       "light": {
-        "value": "{primitive.taza-brand.300}",
+        "value": "{primitive.brand.300}",
         "type": "color",
         "parent": "1. Colors/xs",
         "description": ""
       },
       "lightest": {
-        "value": "{primitive.taza-brand.100}",
+        "value": "{primitive.brand.100}",
         "type": "color",
         "parent": "1. Colors/xs",
         "description": ""
@@ -1254,144 +974,167 @@
     },
     "fg": {
       "default": {
-        "value": "{primitive.neutralcold.800}",
+        "value": "{primitive.neutral.800}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.800}"
       },
       "soft": {
-        "value": "{primitive.neutralcold.300}",
+        "value": "{primitive.neutral.300}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.300}"
       },
       "disabled": {
-        "value": "{primitive.neutralcold.200}",
+        "value": "{primitive.neutral.200}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.200}"
       },
       "softer": {
-        "value": "{primitive.neutralcold.100}",
+        "value": "{primitive.neutral.100}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.100}"
       },
       "invert": {
-        "value": "{primitive.neutralcold.0}",
+        "value": "{primitive.neutral.0}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.0}"
       },
       "soft-hover": {
-        "value": "{primitive.neutralcold.400}",
+        "value": "{primitive.neutral.400}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.400}"
       },
       "softer-hover": {
-        "value": "{primitive.neutralcold.200}",
+        "value": "{primitive.neutral.200}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.200}"
       }
     },
     "bg": {
       "surface1": {
-        "value": "{primitive.neutralcold.0}",
+        "value": "{primitive.neutral.0}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.0}"
       },
       "surface2": {
-        "value": "{primitive.neutralcold.10}",
+        "value": "{primitive.neutral.10}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.10}"
       },
       "surface3": {
-        "value": "{primitive.neutralcold.25}",
+        "value": "{primitive.neutral.25}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.25}"
       },
       "surface4": {
-        "value": "{primitive.neutralcold.50}",
+        "value": "{primitive.neutral.50}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.50}"
       },
       "surface5": {
-        "value": "{primitive.neutralcold.75}",
+        "value": "{primitive.neutral.75}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.75}"
       },
       "surface6": {
-        "value": "{primitive.neutralcold.100}",
+        "value": "{primitive.neutral.100}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.100}"
       },
       "disabled": {
-        "value": "{primitive.neutralcold.75}",
+        "value": "{primitive.neutral.75}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.75}"
       },
       "surface13": {
-        "value": "{primitive.neutralcold.800}",
+        "value": "{primitive.neutral.800}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.800}"
       },
       "surface14": {
-        "value": "{primitive.neutralcold.900}",
+        "value": "{primitive.neutral.900}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.900}"
       },
       "surface15": {
-        "value": "{primitive.neutralcold.1000}",
+        "value": "{primitive.neutral.1000}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.1000}"
       },
       "surface7": {
-        "value": "{primitive.neutralcold.200}",
+        "value": "{primitive.neutral.200}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.200}"
       },
       "surface8": {
-        "value": "{primitive.neutralcold.300}",
+        "value": "{primitive.neutral.300}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.300}"
       },
       "surface9": {
-        "value": "{primitive.neutralcold.400}",
+        "value": "{primitive.neutral.400}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.400}"
       },
       "surface10": {
-        "value": "{primitive.neutralcold.500}",
+        "value": "{primitive.neutral.500}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.500}"
       },
       "surface11": {
-        "value": "{primitive.neutralcold.600}",
+        "value": "{primitive.neutral.600}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.600}"
       },
       "surface12": {
-        "value": "{primitive.neutralcold.700}",
+        "value": "{primitive.neutral.700}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.700}"
       },
       "page": {
         "value": "{semantic.bg.surface2}",
@@ -1456,40 +1199,46 @@
     },
     "border": {
       "default": {
-        "value": "{primitive.neutralcold.100}",
+        "value": "{primitive.neutral.100}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.100}"
       },
       "soft": {
-        "value": "{primitive.neutralcold.75}",
+        "value": "{primitive.neutral.75}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.75}"
       },
       "lightest": {
-        "value": "{primitive.neutralcold.25}",
+        "value": "{primitive.neutral.25}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.25}"
       },
       "default-hover": {
-        "value": "{primitive.neutralcold.200}",
+        "value": "{primitive.neutral.200}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.200}"
       },
       "soft-hover": {
-        "value": "{primitive.neutralcold.100}",
+        "value": "{primitive.neutral.100}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.100}"
       },
       "lightest-hover": {
-        "value": "{primitive.neutralcold.75}",
+        "value": "{primitive.neutral.75}",
         "type": "color",
         "parent": "1. Colors/xs",
-        "description": ""
+        "description": "",
+        "oldValue": "{primitive.neutralcold.75}"
       }
     },
     "status-06": {

@@ -34,6 +34,8 @@ figma2flutter --input ./assets/token-sources/typography.json --output ./lib/src/
 
 8. Run the command in the root of your project to generate components components
 
-```sh
+1. dart path-folder-generate_assets.dart path-folder-components.json AppComponents
 
+```sh
+dart /Users/alitokhtarbay/Desktop/projects/dala_dev_design_system/lib/src/extensions/generate_assets.dart /Users/alitokhtarbay/Desktop/projects/dala_dev_design_system/assets/token-sources/components.json AppComponents
 ```

@@ -14,23 +14,23 @@ abstract class ITokens {
 }
 
 abstract class TextStyleTokens {
-  TextStyle get mobileFontDisplayS;
-  TextStyle get mobileFontDisplayM;
-  TextStyle get mobileFontDisplayL;
-  TextStyle get mobileFontHeadingH1;
-  TextStyle get mobileFontHeadingH2;
-  TextStyle get mobileFontHeadingH3;
-  TextStyle get mobileFontHeadingH4;
-  TextStyle get mobileFontBodyXl;
-  TextStyle get mobileFontBodyXlStrong;
-  TextStyle get mobileFontBodyL;
-  TextStyle get mobileFontBodyLStrong;
-  TextStyle get mobileFontBodyM;
-  TextStyle get mobileFontBodyMStrong;
-  TextStyle get mobileFontBodyS;
-  TextStyle get mobileFontBodySStrong;
-  TextStyle get mobileFontBodyXs;
-  TextStyle get mobileFontBodyXsStrong;
+  TextStyle get fontDisplayS;
+  TextStyle get fontDisplayM;
+  TextStyle get fontDisplayL;
+  TextStyle get fontHeadingH1;
+  TextStyle get fontHeadingH2;
+  TextStyle get fontHeadingH3;
+  TextStyle get fontHeadingH4;
+  TextStyle get fontBodyXl;
+  TextStyle get fontBodyXlStrong;
+  TextStyle get fontBodyL;
+  TextStyle get fontBodyLStrong;
+  TextStyle get fontBodyM;
+  TextStyle get fontBodyMStrong;
+  TextStyle get fontBodyS;
+  TextStyle get fontBodySStrong;
+  TextStyle get fontBodyXs;
+  TextStyle get fontBodyXsStrong;
 }
 
 class DefaultTokens extends ITokens {
@@ -40,119 +40,119 @@ class DefaultTokens extends ITokens {
 
 class DefaultTextStyleTokens extends TextStyleTokens {
   @override
-  TextStyle get mobileFontDisplayS => const TextStyle(
+  TextStyle get fontDisplayS => const TextStyle(
   fontFamily: 'Mulish',
   fontSize: 32.0,
   fontWeight: FontWeight.w800,
   height: 1.25,
 );
   @override
-  TextStyle get mobileFontDisplayM => const TextStyle(
+  TextStyle get fontDisplayM => const TextStyle(
   fontFamily: 'Mulish',
   fontSize: 48.0,
   fontWeight: FontWeight.w800,
   height: 1.1666666666666667,
 );
   @override
-  TextStyle get mobileFontDisplayL => const TextStyle(
+  TextStyle get fontDisplayL => const TextStyle(
   fontFamily: 'Mulish',
   fontSize: 56.0,
   fontWeight: FontWeight.w800,
   height: 1.0,
 );
   @override
-  TextStyle get mobileFontHeadingH1 => const TextStyle(
+  TextStyle get fontHeadingH1 => const TextStyle(
   fontFamily: 'Mulish',
   fontSize: 26.0,
   fontWeight: FontWeight.w800,
   height: 1.2307692307692308,
 );
   @override
-  TextStyle get mobileFontHeadingH2 => const TextStyle(
+  TextStyle get fontHeadingH2 => const TextStyle(
   fontFamily: 'Mulish',
   fontSize: 24.0,
   fontWeight: FontWeight.w800,
   height: 1.3333333333333333,
 );
   @override
-  TextStyle get mobileFontHeadingH3 => const TextStyle(
+  TextStyle get fontHeadingH3 => const TextStyle(
   fontFamily: 'Mulish',
   fontSize: 18.0,
   fontWeight: FontWeight.w800,
   height: 1.3333333333333333,
 );
   @override
-  TextStyle get mobileFontHeadingH4 => const TextStyle(
+  TextStyle get fontHeadingH4 => const TextStyle(
   fontFamily: 'Mulish',
   fontSize: 16.0,
   fontWeight: FontWeight.w800,
   height: 1.5,
 );
   @override
-  TextStyle get mobileFontBodyXl => const TextStyle(
+  TextStyle get fontBodyXl => const TextStyle(
   fontFamily: 'Mulish',
   fontSize: 18.0,
   fontWeight: FontWeight.w500,
   height: 1.3333333333333333,
 );
   @override
-  TextStyle get mobileFontBodyXlStrong => const TextStyle(
+  TextStyle get fontBodyXlStrong => const TextStyle(
   fontFamily: 'Mulish',
   fontSize: 18.0,
   fontWeight: FontWeight.w700,
   height: 1.3333333333333333,
 );
   @override
-  TextStyle get mobileFontBodyL => const TextStyle(
+  TextStyle get fontBodyL => const TextStyle(
   fontFamily: 'Mulish',
   fontSize: 16.0,
   fontWeight: FontWeight.w500,
   height: 1.5,
 );
   @override
-  TextStyle get mobileFontBodyLStrong => const TextStyle(
+  TextStyle get fontBodyLStrong => const TextStyle(
   fontFamily: 'Mulish',
   fontSize: 16.0,
   fontWeight: FontWeight.w700,
   height: 1.5,
 );
   @override
-  TextStyle get mobileFontBodyM => const TextStyle(
+  TextStyle get fontBodyM => const TextStyle(
   fontFamily: 'Mulish',
   fontSize: 14.0,
   fontWeight: FontWeight.w500,
   height: 1.4285714285714286,
 );
   @override
-  TextStyle get mobileFontBodyMStrong => const TextStyle(
+  TextStyle get fontBodyMStrong => const TextStyle(
   fontFamily: 'Mulish',
   fontSize: 14.0,
   fontWeight: FontWeight.w700,
   height: 1.4285714285714286,
 );
   @override
-  TextStyle get mobileFontBodyS => const TextStyle(
+  TextStyle get fontBodyS => const TextStyle(
   fontFamily: 'Mulish',
   fontSize: 12.0,
   fontWeight: FontWeight.w500,
   height: 1.3333333333333333,
 );
   @override
-  TextStyle get mobileFontBodySStrong => const TextStyle(
+  TextStyle get fontBodySStrong => const TextStyle(
   fontFamily: 'Mulish',
   fontSize: 12.0,
   fontWeight: FontWeight.w700,
   height: 1.3333333333333333,
 );
   @override
-  TextStyle get mobileFontBodyXs => const TextStyle(
+  TextStyle get fontBodyXs => const TextStyle(
   fontFamily: 'Mulish',
   fontSize: 10.0,
   fontWeight: FontWeight.w500,
   height: 1.4,
 );
   @override
-  TextStyle get mobileFontBodyXsStrong => const TextStyle(
+  TextStyle get fontBodyXsStrong => const TextStyle(
   fontFamily: 'Mulish',
   fontSize: 10.0,
   fontWeight: FontWeight.w700,

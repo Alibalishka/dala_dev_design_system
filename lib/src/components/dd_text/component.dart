@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 
 class DdText extends StatelessWidget {
   DdText.primary({required this.text, super.key})
-      : style = DefaultTextStyleTokens().mobileFontBodyL;
+      : style = DefaultTextStyleTokens().fontBodyL;
   DdText.secondary({required this.text, super.key})
-      : style = DefaultTextStyleTokens().mobileFontBodyM;
+      : style = DefaultTextStyleTokens().fontBodyM;
   DdText.tertiary({required this.text, super.key})
-      : style = DefaultTextStyleTokens().mobileFontBodyS;
+      : style = DefaultTextStyleTokens().fontBodyS;
 
   final String text;
   final TextStyle style;
